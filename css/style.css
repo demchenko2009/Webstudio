@@ -1,0 +1,398 @@
+/* font-family: "Roboto", sans-serif; */
+/* font-family: "Raleway", sans-serif; */
+:root {
+    --background-color: #FFF;
+    --accent-color: #FFFFFF;
+    --aditional-color: #2196F3;
+    --text-color: #757575;
+    --footer-color: #2F303A;
+    --background-section: #F5F4FA;
+    --heder-text: #212121;
+    --logo-color: #000;
+    }
+    h1,h2,h3,h4,h5,h6,p {
+        margin: 0;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+        
+    }
+    img {
+        display: block;
+    }
+    
+    
+    body {
+        font-family: "Roboto", sans-serif;
+        color: var(--logo-color);
+    }
+    
+    .conteiner {
+        width: 1200px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .heder {
+        padding-top: 24px;
+        padding-bottom: 25px;
+    }
+    
+    .logos {
+        margin-right: 93px;;
+    }
+    
+    
+    .heder-logo {
+        color:var(--aditional-color);
+        font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.38;
+    letter-spacing: 0.78px;
+    }
+    
+    
+    .logo-deskription {
+        color: var(--logo-color);
+     font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.38;
+    letter-spacing: 0.78px;
+    
+    }
+    
+    .heder-box {
+        display: flex;
+        align-items: center;
+    }
+    .heder-nav {
+        display: flex;
+        margin-right: auto;
+    }
+    
+    .nav-list {
+        display: flex;
+        gap: 50px;
+    }
+    
+    .nav-link {
+        color: var(--heder-text);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.28px;
+    
+    }
+    
+    .active {
+        color: var(--aditional-color);
+    }
+    
+    .nav-link:hover,
+    .nav-link:focus {
+        color: var(--aditional-color);
+    }
+        
+    .nav-list {
+        list-style: none;
+    
+    }
+    
+    .heder-list {
+        display: flex;
+      gap: 50px;
+    }
+    .heder-contact {
+        color: var(--text-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.28px;
+    }
+    
+    
+    
+    .heder-contact:hover,
+    .heder-contact:focus {
+    color: var(--aditional-color);
+    
+    }
+    .heder-list {
+        list-style: none;
+    }
+    
+    .services {
+        background-color: var(--footer-color);
+        padding-top: 200px;
+        padding-bottom: 200px;
+        text-align: center;
+    }
+    
+    .services-title {
+        color:var(--accent-color);
+    text-align: center;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36; /* 136.364% */
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+    width: 696px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+    
+    .services-button {
+        background-color: var(--aditional-color);
+        color:var(--background-color);
+        text-align: center;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1.87; /* 187.5% */
+        letter-spacing: 0.96px;
+        margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 4px;
+    background-color: var(--aditional-color);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    }
+    
+    
+    .services-button:focus {
+        color: var(--aditional-color);
+    }
+    
+    .detalis {
+        padding-top: 94px;
+    }
+    
+    .deteils-list {
+        display: flex;
+        gap: 30px;
+        list-style: none;
+    
+     }
+     .deteils-item:nth-child(1)::before {
+         content: "";
+         width: 270px;
+         height: 120px;
+         background-image: url(../imege/antenna.png);
+         display: block;
+         border-radius: 4px;
+         background-color:var(--background-section);
+         background-repeat: no-repeat;
+         background-position: center;
+         background-size: 70px 70px;
+    
+     }
+     
+    
+    .deteils-item:nth-child(2)::before {
+        content: "";
+        width: 270px;
+        height: 120px;
+        background-image: url(../imege/clock.png);
+        display: block;
+        border-radius: 4px;
+        background-color:var(--background-section);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 70px 70px;
+    
+    }
+    .deteils-item:nth-child(3)::before {
+        content: "";
+        width: 270px;
+        height: 120px;
+        background-image: url(../imege/diagram.png);
+        display: block;
+        border-radius: 4px;
+        background-color:var(--background-section);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 70px 70px;
+    
+    }
+    
+    .deteils-item:nth-child(4)::before {
+        content: "";
+        width: 270px;
+        height: 120px;
+        background-image: url(../imege/astronaut.png);
+        display: block;
+        border-radius: 4px;
+        background-color:var(--background-section);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 70px 70px;
+    
+    }
+    
+    
+    .deteils-title {
+        color: var(--heder-text);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    }
+    
+    
+     .deteils-text {
+        color: var(--text-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71; /* 171.429% */
+    letter-spacing: 0.42px;
+     }
+    
+    .work {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+    
+    
+    .work-list {
+        list-style: none;
+        display: flex;
+        gap: 30px;
+     }
+    
+     .work-title {
+        color: var(--heder-text);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 1.08px;
+    margin-bottom: 50px;
+     }
+    
+    
+    
+    .team {
+        background-color: var(--background-section);
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+     
+     .team-title {
+      color: var(--heder-text);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 1.08px;
+    margin-bottom: 50px;
+     }
+    
+     .team-list {
+        display: flex;
+        list-style: none;
+        gap: 30px;
+        text-align: center;
+    
+     }
+     .team-img {
+        width: 270px;
+        height: 260px;
+     }
+    
+    .team-box {
+        color: var(--background-color);
+     padding-top: 30px;
+     padding-bottom: 30px;
+    
+    }
+    
+     .team-deskription {
+        color: var(--heder-text);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.18;
+    letter-spacing: 0.48px;
+    margin-bottom: 10px;
+     }
+    
+    
+     .team-text {
+        color: var(--text-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.18;
+    letter-spacing: 0.48px;
+    
+     }
+    
+    
+    .footer {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    
+     .footer-logo {
+        color: var(--background-color);
+        font-family: "Raleway", sans-serif;
+       font-size: 26px;
+       font-weight: 700;
+       line-height: 1.38;
+       letter-spacing: 0.78px;
+     }
+     .addres {
+        margin-top: 20px;
+     }
+    
+    #footer-city  {
+        color: var(--background-color);
+        font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71; /* 171.429% */
+    letter-spacing: 0.42px;
+    }
+    
+    
+    .footer-contack {
+        color: var(--text-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71; /* 171.429% */
+    letter-spacing: 0.42px;
+    display: block;
+    }
+    .address-list {
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+    }
+    
+    
+    
+    
+    footer {
+        background-color: var(--heder-text);
+    }
+    .logo {
+        display: block;
+        margin-bottom: 20px;
+    }
+    
+    
+    
+     .address-list {
+        list-style: none;
+     }
+    

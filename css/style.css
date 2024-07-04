@@ -131,10 +131,10 @@
     }
     
     .services {
-        background-color: var(--footer-color);
         padding-top: 200px;
         padding-bottom: 200px;
         text-align: center;
+        background-image: url(../imege/kompania.jpg);
     }
     
     .services-title {
@@ -194,6 +194,7 @@
          background-repeat: no-repeat;
          background-position: center;
          background-size: 70px 70px;
+         margin-bottom: 30px;
     
      }
      
@@ -209,6 +210,7 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: 70px 70px;
+        margin-bottom: 30px;
     
     }
     .deteils-item:nth-child(3)::before {
@@ -222,6 +224,7 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: 70px 70px;
+        margin-bottom: 30px;
     
     }
     
@@ -236,6 +239,7 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: 70px 70px;
+        margin-bottom: 30px;
     
     }
     

@@ -371,8 +371,9 @@
        line-height: 1.38;
        letter-spacing: 0.78px;
      }
-     .addres {
+     .address {
         margin-top: 20px;
+        font-style: normal;
      }
     
     #footer-city  {

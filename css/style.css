@@ -316,8 +316,34 @@
     letter-spacing: 1.08px;
     margin-bottom: 50px;
      }
+     
+     .work-item {
+        position: relative;
+     }
+
+
+.work-text {
+
+    color:var(--accent-color);
+text-align: center;
+font-size: 14px;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+padding-top: 27px;
+padding-bottom: 27px;
+
+}
+
     
-    
+    .work-box {
+        position: absolute;
+        bottom: 0;;
+        width: 370px;
+        height: 70px;
+        background: rgba(47, 48, 58, 0.80);
+    }
     
     .team {
         background-color: var(--background-section);
@@ -444,6 +470,100 @@ letter-spacing: 1.08px;
     width: 106px;
     height: 60px;
 }
+
+
+
+
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--heder-text);
+}
+
+
+.footer>.conteiner {
+    display: flex;
+    align-items: first baseline;
+}
+
+.footer-logo {
+    color: var(--background-color);
+    font-family: "Raleway", sans-serif;
+   font-size: 26px;
+   font-weight: 700;
+   line-height: 1.38;
+   letter-spacing: 0.78px;
+ }
+
+
+
+ .address {
+    margin-top: 20px;
+    font-style: normal;
+    display: flex;
+ }
+
+
+
+ .address-list {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+
+
+
+ #footer-city  {
+    color: var(--background-color);
+    font-size: 14px;
+font-weight: 400;
+line-height: 1.71; /* 171.429% */
+letter-spacing: 0.42px;
+}
+
+
+.footer-contack {
+    color: var(--text-color);
+font-size: 14px;
+font-weight: 400;
+line-height: 1.71; /* 171.429% */
+letter-spacing: 0.42px;
+display: block;
+}
+
+
+
+
+.title-join {
+    color:var(--background-color);
+font-size: 14px;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+margin-left: 70px;
+}
+
+
+
+.list-join {
+    margin-top: 9px;
+    display: flex;
+    margin-left: 70px;
+    gap: 10px;
+}
+
+
+.socional {
+    width: 20px;
+    height: 20px;
+    fill: var(--accent-color);
+
+}
+
+
+
 .social-buttonn {
     fill: var(--social-networks);
     border: 1px solid var(--social-networks);
@@ -462,72 +582,8 @@ letter-spacing: 1.08px;
 }
 
 
-    .footer {
-        padding-top: 60px;
-        padding-bottom: 60px;
-        background-color: var(--heder-text);
-    }
-    .footer>.conteiner {
-        display: flex;
-        align-items: baseline;
-    }
 
 
-    
-     .footer-logo {
-        color: var(--background-color);
-        font-family: "Raleway", sans-serif;
-       font-size: 26px;
-       font-weight: 700;
-       line-height: 1.38;
-       letter-spacing: 0.78px;
-     }
-     .address {
-        margin-top: 20px;
-        font-style: normal;
-        display: flex;
-     }
-    
-    #footer-city  {
-        color: var(--background-color);
-        font-size: 14px;
-    font-weight: 400;
-    line-height: 1.71; /* 171.429% */
-    letter-spacing: 0.42px;
-    }
-    
-    
-    .footer-contack {
-        color: var(--text-color);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.71; /* 171.429% */
-    letter-spacing: 0.42px;
-    display: block;
-    }
-    .address-list {
-        display: flex;
-        flex-direction: column;
-        gap: 9px;
-    }
-    
-
-    .list-join {
-        margin-top: 9px;
-        display: flex;
-        margin-left: 70px;
-    }
-
-    .title-join {
-        color:var(--background-color);
-font-size: 14px;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.42px;
-text-transform: uppercase;
-margin-left: 70px;
-    }
-  
     
     .join-button {
         background-color: var(--networks-background);
@@ -538,16 +594,13 @@ margin-left: 70px;
         height: 44px;
         padding: 0.35em;
         border-radius: 50%; 
+  
     }
     .join-button:hover,
     .join-button:focus {
         background-color: var(--aditional-color);
     }
-    .socional {
-        width: 20px;
-        height: 20px;
-        fill: var(--accent-color);
-    }
+
     
   
 
@@ -557,13 +610,19 @@ margin-left: 70px;
         display: block;
         margin-bottom: 20px;
     }
+
+
     .item-input {
         margin-left: 93px;
     }
 
+
+
     .footer-join {
         margin-left: 93px;
     }
+
+
     
     .text-inputtionn {
         margin-bottom: 20px;
@@ -576,10 +635,14 @@ margin-left: 70px;
         letter-spacing: 0.42px;
         text-transform: uppercase;
     }
+
+
     
     .flex-input {
         display: flex;
     }
+
+
     
     .inputt {
         padding-left: 16px;
@@ -592,10 +655,14 @@ margin-left: 70px;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     }
     
+
+
     .text-input {
         background: rgba(33, 150, 243, 0.00);
         border: none;
     }
+
+
     
     
     .button-link {
@@ -617,6 +684,8 @@ margin-left: 70px;
         background: #2196F3;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     }
+    
+
     
     .svg-telegram {
         width: 24px;

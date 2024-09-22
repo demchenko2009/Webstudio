@@ -477,7 +477,7 @@ letter-spacing: 1.08px;
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
-    background-color: var(--heder-text);
+    background-color: var(--footer-color);
 }
 
 

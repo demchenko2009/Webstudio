@@ -3,7 +3,7 @@
     --accent-color:  #FFFFFF;
     --additional-accent: #2196F3;
     --text-color: #757575;
-    --footer: #2F303A;
+    --footer-color: #2F303A;
     --background-section: #F5F4FA;
     --head-text: #212121;
     --href-moments: #2196F3;
@@ -245,7 +245,7 @@ header {
 
 
 footer {
-    background-color: var(--footer);
+    background-color: var(--footer-color);
     padding-top: 60px;
     padding-bottom: 60px;
     

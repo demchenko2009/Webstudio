@@ -231,7 +231,7 @@ header {
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
 }
 
-.card-item div{
+.card-box{
     padding: 20px 24px;  
 }
 
@@ -259,7 +259,54 @@ header {
     letter-spacing: 0.03em;
     margin-top: 4px;
     color: var(--link-color);
+
+
+
+
 }
+.box-abiliti {
+    position: relative;
+    overflow: hidden;
+
+
+}
+
+
+
+.card-abiliti{
+    width: 100%;
+    height: 295px;
+    color: var(--additional-accent);
+    background: rgba(33, 150, 243, 0.90);
+    position: absolute;
+    padding: 63px 24px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    letter-spacing: 0.54px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transform: translateY(100%);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+ }
+ .card-item:not(:hover) .card-abiliti {
+    transform: translateY(100);
+    opacity: 1;
+}
+.card-item:hover .card-abiliti {
+    transform: translateY(0); /* Поднимаем текст вверх при наведении */
+    opacity: 1;
+}
+
+
 
 
 
@@ -308,6 +355,12 @@ footer {
     letter-spacing: 0.03em;
     font-style: normal;
     color: var(--accent-color);
+
+}
+
+.footer-address:hover,
+.footer-address:focus {
+    color: var(--additional-accent);
 }
 
 
@@ -323,6 +376,11 @@ footer {
     font-style: normal;
     color: var(--text-color);
     
+}
+
+.footer-cont:hover,
+.footer-cont:focus{
+color: var(--additional-accent);
 }
 
 

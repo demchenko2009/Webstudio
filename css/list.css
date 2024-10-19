@@ -92,6 +92,10 @@ header {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--head-text);
+transition-property: color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
   
 .list-sketch:hover,
@@ -150,12 +154,20 @@ header {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--text-color);
+    transition-property: color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 
 }
 .logo-email {
     fill: var(--text-color);
     width: 16px;
     height: 12px;
+    transition-property: fill;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 
 }
 
@@ -163,6 +175,10 @@ header {
     fill: var(--text-color);
     width: 10px;
     height: 16px;
+    transition-property: fill;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 
@@ -206,6 +222,10 @@ header {
     border: none;
     cursor: pointer;
     padding: 6px 22px;
+    transition-property: color,background-color,box-shadow;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .button-item:hover,
@@ -338,6 +358,9 @@ footer {
 }
 
 
+.list-footer {
+    margin-right: 70px;
+}
 
 .item-logo {
     margin-bottom: 20px;
@@ -389,9 +412,7 @@ color: var(--additional-accent);
 
 
 .list-join {
-    margin-left: 70px;
     display: flex;
-    margin-top: 9px;
     gap: 10px;
 }
 
@@ -423,6 +444,10 @@ color: var(--additional-accent);
     height: 44px;
     padding: 0.35em;
     border-radius: 50%; 
+    transition-property: background-color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .icon-page:hover,

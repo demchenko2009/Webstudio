@@ -1,12 +1,12 @@
 
 .team {
-    background-color: var(--background-section);
+    background-color: $background-section;
     padding-top: 94px;
     padding-bottom: 94px;
 }
  
  .team-title {
-  color: var(--heder-text);
+  color: $heder-text;
 text-align: center;
 font-size: 36px;
 font-weight: 700;
@@ -38,14 +38,14 @@ margin-bottom: 50px;
  }
 
 .team-box {
-    color: var(--background-color);
+    color: $background-color;
  padding-top: 30px;
  padding-bottom: 30px;
 
 }
 
  .team-deskription {
-    color: var(--heder-text);
+    color: $heder-text;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.18;
@@ -55,7 +55,7 @@ margin-bottom: 10px;
 
 
  .team-text {
-    color: var(--text-color);
+    color: $text-color;
 font-size: 16px;
 font-weight: 400;
 line-height: 1.18;
@@ -75,7 +75,7 @@ letter-spacing: 0.48px;
 
 
  .teaming-button {
-    background-color: var(--networks-background);
+    background-color: $networks-background;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,7 +88,7 @@ transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 border: none;
 .teaming-weriet{
-    fill: var(--social-networks);
+    fill: $social-networks;
     width: 20px;
     height: 20px;
     transition-property: fill;
@@ -102,13 +102,13 @@ border: none;
 
  .teaming-button:hover,
  .teaming-button:focus {
-background-color: var(--aditional-color);
+background-color: $aditional-color;
 border: none;
-outline: 0px solid var(--aditional-color);
+outline: 0px solid $aditional-color;
 .teaming-weriet {
 height: 20px;
 width: 20px;
-fill: var(--accent-color);
+fill: $accent-color;
 
 
 }

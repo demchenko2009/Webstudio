@@ -11,7 +11,7 @@
  }
 
  .work-title {
-    color: var(--heder-text);
+    color: $heder-text;
 text-align: center;
 font-size: 36px;
 font-weight: 700;
@@ -27,7 +27,7 @@ margin-bottom: 50px;
 
 .work-text {
 
-color:var(--accent-color);
+color:$accent-color;
 text-align: center;
 font-size: 14px;
 font-weight: 700;

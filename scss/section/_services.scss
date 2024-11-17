@@ -13,7 +13,7 @@
 
 
 .services-tittle {
-    color:var(--accent-color);
+    color:$accent-color;
 text-align: center;
 font-size: 44px;
 font-weight: 900;
@@ -23,13 +23,34 @@ text-transform: uppercase;
 width: 696px;
 margin-right: auto;
 margin-left: auto;
+transition-property: color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+animation: shadowChange 4s infinite alternate;
+
+
+
+
+@keyframes shadowChange {
+    0% {
+        text-shadow: 0 0 10px  #1E252B;
+    }
+    50% {
+        text-shadow: 0 0 8px #ffffff; 
+    }
+}
+
+    &:hover {
+        color: $logo-color;
+    
+    }
 }
 
 
 
 .services-button {
-    background-color: var(--aditional-color);
-    color:var(--background-color);
+    background-color: $aditional-color;
+    color:$background-color;
     text-align: center;
     font-size: 16px;
     font-weight: 700;
@@ -41,13 +62,28 @@ padding-bottom: 10px;
 padding-left: 32px;
 padding-right: 32px;
 border-radius: 4px;
-background-color: var(--aditional-color);
+background-color: $aditional-color;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+transition-property: color, background-color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+animation: breathing 3s infinite ease-in-out;
 }
 
 
 
-
+.services-button:hover,
 .services-button:focus {
-    color: var(--aditional-color);
+    color:  $background-section;
+    background-color: $logo-color;
+
+    @keyframes breathing {
+        0%, 100% {
+            width: 220px;
+        }
+        50% {
+            width: 250px;
+        }
+
+}
 }

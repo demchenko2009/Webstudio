@@ -42,7 +42,7 @@ letter-spacing: 0.6px;
 
 
 .modal-label {
-color: var(--text-color);
+color: $text-color;
 font-size: 12px;
 font-weight: 400;
 line-height: normal;
@@ -70,11 +70,11 @@ border: 1px solid rgba(33, 33, 33, 0.20);
 .modal-input:hover,
 .modal-input:focus {
 border: none;
-outline: 1px solid var(--aditional-color);
+outline: 1px solid $aditional-color;
 }
 .modal-input:hover + .modal-icon,
 .modal-input:focus + .modal-icon {
-fill: var(--aditional-color);
+fill: $aditional-color;
 }
 
 
@@ -84,7 +84,7 @@ width: 18px;
 height: 18px;
 top: 11px;
 left: 12px;
-fill: var(--heder-text);
+fill: $heder-text;
 
 }
 
@@ -185,7 +185,7 @@ background-color: transparent;
 
 .burger-button:hover,
 .burger-button:focus {
-fill: var(--aditional-color);
+fill: $aditional-color;
 }
 
 

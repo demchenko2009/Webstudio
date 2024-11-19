@@ -8,11 +8,9 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-}
 
-
-
-.services-tittle {
+        
+&__tittle {
     color:$accent-color;
 text-align: center;
 font-size: 44px;
@@ -48,7 +46,10 @@ animation: shadowChange 4s infinite alternate;
 
 
 
-.services-button {
+
+
+
+&__button {
     background-color: $aditional-color;
     color:$background-color;
     text-align: center;
@@ -68,12 +69,13 @@ transition-property: color, background-color;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 animation: breathing 3s infinite ease-in-out;
-}
 
 
 
-.services-button:hover,
-.services-button:focus {
+
+
+&:hover,
+&:focus {
     color:  $background-section;
     background-color: $logo-color;
 
@@ -87,3 +89,16 @@ animation: breathing 3s infinite ease-in-out;
 
 }
 }
+}
+
+}
+
+
+
+
+
+
+
+
+
+

@@ -2,62 +2,85 @@
     padding-top: 94px;
     padding-bottom: 94px;
     background-color: $accent-color;
- }
-  
-  
-  
-  .klient-title {
-      color: $heder-text;
-  text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 1.08px;
-  }
-  
-  
+
+
+
+
+
+    &__title {
+        color: $heder-text;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    }
+
+
+
+     
+    &__list {
+        display: flex;
+        margin-top: 50px;
+        align-items: center;
+        justify-content: center;
+        fill: $social-networks;
+        gap: 30px;
+    
+    }
+
+
+
+
+    &__buttonn {
+        fill: $social-networks;
+        border: 1px solid $social-networks;
+        width: 170px;
+        height: 90px;
+        flex-shrink: 0;
+        display: flex;
+        border: none;
+        outline: 1px solid $social-networks;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        transition-property: fill, outline;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
       
-  .kilent-list {
-      display: flex;
-      margin-top: 50px;
-      align-items: center;
-      justify-content: center;
-      fill: $social-networks;
-      gap: 30px;
-  
-  }
-  
-  
-  .klient-buttonn {
-    fill: $social-networks;
-    border: 1px solid $social-networks;
-    width: 170px;
-    height: 90px;
-    flex-shrink: 0;
-    display: flex;
-    border: none;
-    outline: 1px solid $social-networks;
-    justify-content: center;
-    align-items: center;
-    border-radius: 4px;
-    transition-property: fill, outline;
-transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  
-}
-.klient-buttonn:hover,
-.klient-buttonn:focus {
+
+
+
+      
+&:hover,
+&:focus {
     fill: var(--aditional-color);
     outline: 1px solid $aditional-color;
     border: none;
 }
+    }
 
 
 
 
+    
 
-  .klient-schop {
-      width: 106px;
-      height: 60px;
-  }
+    &__schop {
+        width: 106px;
+        height: 60px;
+    }
+    
+ }
   
+  
+  
+  
+  
+ 
+  
+  
+
+
+
+
+

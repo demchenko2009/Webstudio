@@ -1,6 +1,15 @@
-.heder {
+.heder  {
   padding-top: 24px;
   padding-bottom: 25px;
+
+
+  @media screen and (min-width: 768px) {
+    padding: 26px 0;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding: 25px 0;
+  }
 
   &__box {
     display: flex;
@@ -8,7 +17,7 @@
   }
 
   &__logos {
-    margin-right: 93px;
+    margin-right: auto;
 
     color: $aditional-color;
     font-family: "Raleway", sans-serif;
@@ -16,6 +25,17 @@
     font-weight: 700;
     line-height: 1.38;
     letter-spacing: 0.78px;
+
+    
+    @media screen and (min-width: 768px) {
+margin-right: 88px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      margin-right: 93px;
+      font-size: 26px;
+      letter-spacing: 0.78px;
+          }
   }
 
 
@@ -30,13 +50,31 @@
   }
 
   &__nav {
-    display: flex;
+    display: none;
     margin-right: auto;
+
+    @media screen and (min-width: 768px) {
+      display: flex;
+    }
   }
 
   &__list {
-    display: flex;
-    gap: 50px;
+    display: none;
+
+
+
+
+    @media screen and (min-width: 768px) {
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+          }
+
+          @media screen and (min-width: 1200px) {
+       
+            flex-direction: row;
+            gap: 50px;
+                 }
   }
 
   &__item {

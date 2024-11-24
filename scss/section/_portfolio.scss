@@ -1,13 +1,30 @@
 .portfolio {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+  
+      @media screen and (min-width: 1200px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+      }
 }
 
 .portfolio-list {
     display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
     gap: 8px;
+    row-gap: 15px;
+  justify-content: flex-start;
+    margin-bottom: 40px;
+  flex-wrap: wrap;
+  
+    @media screen and (min-width: 768px) {
+      margin-bottom: 30px;
+      justify-content: center;
+    }
+  
+    @media screen and (min-width: 1200px) {
+      margin-bottom: 50px;
+    }
 }
 
 
@@ -43,9 +60,28 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+
+    
+    @media screen and (min-width: 768px) {
+        justify-content: space-between;
+       }
+
+       @media screen and (min-width: 1200px) {
+        justify-content: flex-start;
+       }
 }
 .portfolio-card {
-    flex-basis: calc((100% - 60px) /3 );
+    flex-basis:100%;
+
+    @media screen and (min-width: 768px) {
+        width: calc((100% - 30px) / 2);
+        max-width: 354px;
+      }
+  
+      @media screen and (min-width: 1200px) {
+        width: calc((100% - 60px) / 3);
+        max-width: 370px;
+      }
 }
 
 .portfolio-card:hover {

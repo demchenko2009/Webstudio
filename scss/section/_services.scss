@@ -18,10 +18,10 @@
 &__tittle {
     color:$accent-color;
 text-align: center;
-font-size: 44px;
+font-size: 26px;
 font-weight: 900;
-line-height: 1.36; /* 136.364% */
-letter-spacing: 2.64px;
+line-height: 1.61; /* 136.364% */
+letter-spacing: 1.56px;
 text-transform: uppercase;
 width: 100%;
 margin-right: auto;
@@ -36,12 +36,7 @@ animation: shadowChange 4s infinite alternate;
 }
 
 
-@media screen and (min-width: 768px) { 
-font-size: 26px;
-line-height: 1.61;
-letter-spacing: 1.56px;
 
-  }
 
 
 @media screen and (min-width: 1200px) { 

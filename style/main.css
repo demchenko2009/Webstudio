@@ -233,10 +233,10 @@ body {
 .services__tittle {
   color: #FFFFFF;
   text-align: center;
-  font-size: 44px;
+  font-size: 26px;
   font-weight: 900;
-  line-height: 1.36; /* 136.364% */
-  letter-spacing: 2.64px;
+  line-height: 1.61; /* 136.364% */
+  letter-spacing: 1.56px;
   text-transform: uppercase;
   width: 100%;
   margin-right: auto;
@@ -249,13 +249,6 @@ body {
 @media screen and (min-width: 480px) {
   .services__tittle {
     width: 360px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .services__tittle {
-    font-size: 26px;
-    line-height: 1.61;
-    letter-spacing: 1.56px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -825,7 +818,7 @@ body {
 @media screen and (min-width: 1200px) {
   .footer__join {
     margin-top: 0;
-    margin-left: 93px;
+    margin-left: auto;
     text-align: start;
   }
 }

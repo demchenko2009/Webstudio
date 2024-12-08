@@ -11,34 +11,63 @@
 <link rel="stylesheet" href="../style/main.min.css">
 </head>
 <body>
-    <header class="heder">
-        <div class="conteiner heder__box">
-          <a href="../index.html" class=" heder__logos"><span class="heder___logo">Web</span><span class="heder__deskription">Studio</span> </a>
-          <nav class="heder__nav">
-            <ul class="nav__list">
-              <li class="nav__item"><a href="../index.html" class="nav__link ">Студія</a></li>
-              <li class="nav__item"><a href="../pages/portfolio.html" class="nav__link active">Портфоліо</a></li>
-              <li  class="nav__item"><a href="#" class="nav__link">Контакти</a></li>
-            </ul>
-          </nav>
-          <ul class="heder__list">
-            <li class="heder__item">
-              <a href="mailto:info@devstudio.com" class="heder__contact"> <svg class="heder__emaill">
-                <use href="../imege/symbol-defs.svg#icon-email"></use>
-              </svg> info@devstudio.com
-    
-              </a>
-            </li>
-            <li class="heder__item">
-              <a href="tel:+30961111111" class="heder__contact"> <svg class="heder__phone">
-                <use href="../imege/symbol-defs.svg#icon-telefon"></use>
-              </svg>+38 096 111 11 11
-                
-              </a>
-            </li>
-          </ul>
-        </div>
-        </header>
+  <header class="heder">
+    <div class="conteiner heder__box">
+      <a href="./index.html" class=" heder__logos"><span class="heder___logo">Web</span><span class="heder__deskription">Studio</span> </a>
+      <button type="button" class="heder__burgor" data-modal-header-open>
+        <svg class="heder__menu">
+          <use href="../imege/symbol-defs.svg#icon-stricht"></use>
+        </svg>
+      </button>
+      <nav class="heder__nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="../index.html" class="nav__link ">Студія</a></li>
+          <li class="nav__item"><a href="../pages/portfolio.html" class="nav__link   active">Портфоліо</a></li>
+          <li  class="nav__item"><a href="#" class="nav__link">Контакти</a></li>
+        </ul>
+      </nav>
+      <ul class="heder__list">
+        <li class="heder__item">
+          <a href="mailto:info@devstudio.com" class="heder__contact"> <svg class="heder__emaill">
+            <use href="../imege/symbol-defs.svg#icon-email"></use>
+          </svg> info@devstudio.com
+
+          </a>
+        </li>
+        <li class="heder__item">
+          <a href="tel:+30961111111" class="heder__contact"> <svg class="heder__phone">
+            <use href="../imege/symbol-defs.svg#icon-telefon"></use>
+          </svg>+38 096 111 11 11
+            
+          </a>
+        </li>
+      </ul>
+      <div class="menu is-hidden" data-header-modal>
+        <button type="button" class="menu__btn" data-modal-header-close>
+          <svg class="menu__close">
+            <use href="../imege/symbol-defs.svg#icon-burger"></use>
+          </svg>
+        </button>
+        <ul class="menu__list">
+          <li class="menu__item"><a href="../index.html" class="menu__link">Студія</a></li>
+          <li class="menu__item"><a href="../pages/portfolio.html" class="menu__link">Портфоліо</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">Контакти</a></li>
+        </ul>
+        <div class="menu__fenster">
+        <ul class="menu__contact">
+          <li class="menu__contacton"><a href="tel:+38096111111" class="menu__link-contact">+38 096 111 11 11</a></li>
+          <li class="menu__contacton"><a href="mailto:info@devstudio.com" class="menu__link-contact">info@devstudio.com</a></li>
+        </ul>
+        <ul class="menu__list-social">
+          <li class="menu__item-social"><a href="" class="menu__link-social">Instagram</a></li>
+          <li class="menu__item-social"><a href="" class="menu__link-social">Twitter</a></li>
+          <li class="menu__item-social"><a href="" class="menu__link-social">Facebook</a></li>
+          <li class="menu__item-social"><a href="" class="menu__link-social">LinkedIn</a></li>
+        </ul>
+    </div>
+    </div>
+    </div>
+    </header>
     <main>
         <section class="portfolio">
             <div class="conteiner">
@@ -205,5 +234,6 @@
 
     </footer>
 
+    <script src="../js/burger.js"></script>
 </body>
 </html>

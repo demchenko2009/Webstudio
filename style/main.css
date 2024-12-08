@@ -47,8 +47,7 @@ body {
 }
 
 .heder {
-  padding-top: 24px;
-  padding-bottom: 25px;
+  position: relative;
 }
 @media screen and (min-width: 768px) {
   .heder {
@@ -167,6 +166,20 @@ body {
 .heder__list {
   list-style: none;
 }
+.heder__burgor {
+  border: none;
+  background-color: transparent;
+}
+@media screen and (min-width: 768px) {
+  .heder__burgor {
+    display: none;
+  }
+}
+.heder__menu {
+  width: 40px;
+  height: 60px;
+  fill: black;
+}
 
 .nav__list {
   display: flex;
@@ -190,6 +203,120 @@ body {
 }
 .nav__item {
   position: relative;
+}
+
+.menu {
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.04), 0px 2px 4px 0px rgba(0, 0, 0, 0.08), 0px 1px 3px 0px rgba(0, 0, 0, 0.16);
+  padding: 48px 40px;
+  opacity: 1;
+  background-color: white;
+}
+
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.menu__btn {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 20px;
+  right: 15px;
+}
+
+.menu__close {
+  width: 20px;
+  height: 20px;
+  fill: #000000;
+}
+
+.menu__btn:hover .menu__close {
+  fill: black;
+}
+
+.menu__list {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.menu__link {
+  color: #212121;
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  line-height: 1.17;
+}
+
+.menu__link:focus {
+  color: #2196F3;
+}
+
+.menu__fenster {
+  position: absolute;
+  bottom: 50px;
+}
+
+.menu__contact {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 64px;
+}
+
+.menu__link-contact {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.08;
+  letter-spacing: 0.48px;
+}
+
+.menu__contacton:first-child > .menu__link-contact {
+  color: #2196F3;
+  font-size: 34px;
+  line-height: 1.17;
+  letter-spacing: 0.68px;
+}
+
+.menu__contacton:last-child > .menu__link-contact {
+  color: #757575;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.48px;
+}
+
+.menu__list-social {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu__link-social {
+  color: #2196F3;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.22;
+  letter-spacing: 0.36px;
+}
+
+.menu__item-social:not(:last-child) {
+  margin-right: 10px;
+  display: flex;
+}
+
+.menu__item-social:not(:last-child)::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 22px;
+  background: rgba(33, 33, 33, 0.2);
+  margin-left: 10px;
 }
 
 .active {

@@ -27,6 +27,27 @@ left: 50%;
 border-radius: 4px;
 background: #FFF;
 box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+width:100%;
+height:100%;
+
+
+@media screen and (min-width: 480px) {
+    width: 450px;
+height: 609px;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    width: 450px;
+height: 609px;
+    
+}
+@media screen and (min-width: 1200px) {
+    width: 528px;
+height: 581px;
+}
+
 
 }
 
@@ -38,6 +59,8 @@ font-size: 20px;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 0.6px;
+
+
 }
 
 
@@ -58,12 +81,14 @@ margin-bottom: 4px;
 
 .modal-input {
 margin-bottom: 10px;
-width: 448px;
+width:100%;
 height: 40px;
 padding-left: 40px;
 padding-right: 40px;
 border-radius: 4px;
 border: 1px solid rgba(33, 33, 33, 0.20);
+
+
 
 }
 
@@ -98,7 +123,7 @@ letter-spacing: 0.12px;
 }
 
 .text-comment {
-width: 448px;
+width: 100%;
 height: 120px;
 padding: 12px 16px;
 display: block;
@@ -113,10 +138,14 @@ margin-top: 4px;
 
 
 .input-chek {
-width: 16px;
+    width: 16px;
 height: 15px;
 border-radius: 2px;
+
+
 }
+
+
 
 
 .cheked {
@@ -139,9 +168,20 @@ text-decoration-line: underline;
 }
 
 .modal-chek {
-display: flex;
-justify-content: center;
-align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    display: block;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+
+    @media screen and (min-width: 480px) {
+      display: flex;
+    }
+	
+    @media screen and (min-width: 1200px) {
+      font-size: 14px;
+    }
 }
 
 

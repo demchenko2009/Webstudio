@@ -263,7 +263,7 @@ fill: black;
 
 margin-bottom: 64px;
 }
-.menu__link-contact {
+.menu__krontact {
 
     font-size: 24px;
     font-weight: 500;
@@ -272,7 +272,7 @@ margin-bottom: 64px;
     
 }
 .menu__contacton:first-child >
- .menu__link-contact {
+ .menu__krontact {
   color: $aditional-color;
     font-size: 34px;
     line-height: 1.17;
@@ -280,21 +280,21 @@ margin-bottom: 64px;
 }
 
 .menu__contacton:last-child >
- .menu__link-contact {
+ .menu__krontact {
   color: $text-color;
     font-size: 24px;
     line-height: 1.17;
     letter-spacing: 0.48px;
 }
 
+// dddddd
 
-
-.menu__list-social {
+.menu__social {
   display: flex;
   flex-wrap: wrap;
 }
 
-.menu__link-social {
+.menu__socrial {
   color: $aditional-color;
   font-size: 18px;
   font-weight: 500;
@@ -303,13 +303,13 @@ margin-bottom: 64px;
 }
 
 
-.menu__item-social:not(:last-child) {
+.menu__socialist:not(:last-child) {
   margin-right: 10px;
   display: flex;
 }
 
 
-.menu__item-social:not(:last-child)::after {
+.menu__socialist:not(:last-child)::after {
   content: "";
   display: block;
   width: 1px;

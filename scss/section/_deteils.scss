@@ -79,8 +79,7 @@
 
 &__title {
     color: $heder-text;
-font-size: 14px;
-font-weight: 700;
+@extend %font;
 line-height: 1.14;
 letter-spacing: 0.42px;
 text-transform: uppercase;
